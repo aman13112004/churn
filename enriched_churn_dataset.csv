@@ -1,0 +1,501 @@
+customer_id,review_text,churn,age,gender,location,usage_frequency,num_purchases,avg_purchase_value,sentiment_score,satisfaction_score,num_support_tickets,tenure_days
+362,Happy with the purchase. No complaints about hardware. I used it for two years.,0,56,M,Mumbai,7,18,1100,0.653064582,5,1,266
+74,"App crashes, freezes a lot — will not buy again. Bought it second hand. (iPhone X)",1,46,M,Kolkata,2,17,264,-0.849253823,3.4,4,982
+375,"Battery life decent, and the OS updates still run smooth. Prefer newer models but this one still works.",0,32,M,Hyderabad,7,19,1236,-0.559000522,5,0,933
+156,Old battery refuses to hold charge; needs replacement. Battery performance is the main issue.,0,60,M,Kolkata,7,9,412,0.874413692,5,0,101
+105,Battery drains quickly and it heats up often. Prefer newer models but this one still works. (iPhone X),1,25,M,Bangalore,1,4,441,-0.496379641,3.3,1,696
+395,"App crashes, freezes a lot — will not buy again.",0,38,F,Hyderabad,7,2,692,-0.885244357,5,0,219
+378,"Phone works fine, fast enough and good display for the price. Shipping and delivery were fine. (iPhone X)",0,56,M,Pune,5,4,1436,-0.42820746,5,1,297
+125,"Great build, feels premium — still holds up well. OS updates sometimes slow it down. (iPhone 8)",0,36,M,Mumbai,3,2,1916,0.928797279,5,0,350
+69,"Phone works fine, fast enough and good display for the price. Battery performance is the main issue.",0,40,M,Delhi,3,15,537,-1,5,0,136
+451,"Battery life decent, and the OS updates still run smooth. Shipping and delivery were fine. (iPhone X)",0,28,F,Chennai,4,2,372,-0.734532219,5,1,261
+10,"Phone became slow after updates, frustrating experience. Minor bugs but acceptable. (iPhone X)",0,28,F,Mumbai,2,4,871,0.329007344,5,0,71
+195,"Phone works fine, fast enough and good display for the price. I used it for two years. (iPhone X)",0,41,M,Mumbai,2,6,363,1,5,0,731
+407,Love my iPhone X. Battery still ok and camera works great. Minor bugs but acceptable.,0,53,F,Bangalore,1,7,664,-0.378722841,5,0,912
+85,"Phone works fine, fast enough and good display for the price. Screen protector saved it from scratches.",0,57,M,Pune,5,10,1194,-0.965204636,5,1,168
+372,"Battery life decent, and the OS updates still run smooth. (iPhone X)",0,41,M,Chennai,4,19,696,-0.260255443,5,0,644
+389,Screen cracked and Apple support was slow to help. OS updates sometimes slow it down. (iPhone X),0,20,F,Hyderabad,2,19,899,0.557491297,5,0,712
+496,Happy with the purchase. No complaints about hardware. I used it for two years. (iPhone X),0,39,M,Hyderabad,3,12,594,-0.036953464,5,1,892
+31,Some good aspects but also some issues with battery and updates. Battery performance is the main issue.,0,19,F,Hyderabad,7,3,902,-0.364221117,5,0,302
+317,"Phone works fine, fast enough and good display for the price. Battery performance is the main issue. (iPhone 8)",0,41,F,Kolkata,7,13,507,-0.152785976,5,0,510
+409,"Touchscreen unresponsive at times, returns and repairs are costly. Battery performance is the main issue. (iPhone 8)",1,61,M,Kolkata,4,18,1991,0.900915393,3.7,4,445
+491,Love my iPhone X. Battery still ok and camera works great. Screen protector saved it from scratches.,0,47,M,Delhi,5,8,382,-1,5,0,535
+492,"Battery life decent, and the OS updates still run smooth. Shipping and delivery were fine.",0,55,F,Chennai,5,15,828,0.067053332,5,0,762
+281,Camera malfunctioned and photos come out blurred. Battery performance is the main issue. (iPhone 8),1,19,M,Hyderabad,6,1,709,0.921713276,4,3,754
+357,Love my iPhone X. Battery still ok and camera works great. Ordered replacement battery one time. (iPhone X),0,38,M,Kolkata,9,3,1931,-0.306541601,5,1,882
+77,Frequent reboots and random shutdowns. Very disappointed. Battery performance is the main issue.,0,50,M,Delhi,2,8,745,0.59591915,5,0,453
+462,It's okay — camera is fine but battery needed replacement. OS updates sometimes slow it down. (iPhone X),0,29,F,Pune,5,4,1787,-0.162792433,5,0,436
+498,Good phone for calls and photos. Would recommend.,0,39,F,Delhi,3,16,823,0.152734977,5,0,597
+212,"Battery life decent, and the OS updates still run smooth. Prefer newer models but this one still works. (iPhone X)",0,61,M,Kolkata,4,10,1987,0.291185293,5,1,419
+102,Not worth the price; speaker stopped working after few months. Bought it second hand. (iPhone X),0,42,F,Bangalore,6,12,793,1,5,1,371
+335,Old battery refuses to hold charge; needs replacement. Prefer newer models but this one still works.,0,44,F,Bangalore,8,14,943,-0.917595678,5,0,975
+476,"Great build, feels premium — still holds up well. Bought it second hand. (iPhone X)",1,59,F,Hyderabad,1,14,1450,-0.592712722,3.4,2,643
+337,"Customer service was unhelpful and rude, won't recommend. Bought it second hand. (iPhone X)",1,45,F,Bangalore,8,2,1968,-0.151195724,3.9,4,962
+441,Camera malfunctioned and photos come out blurred. Screen protector saved it from scratches. (iPhone 8),0,33,F,Hyderabad,7,5,1956,-0.949249598,5,0,522
+174,"Overall satisfied, had no major issues with my old iPhone 8. I used it for two years. (iPhone X)",0,32,M,Hyderabad,1,5,1659,0.393448948,5,1,221
+3,Some good aspects but also some issues with battery and updates. OS updates sometimes slow it down. (iPhone X),0,64,M,Kolkata,2,6,1645,0.025821859,5,1,528
+334,Camera quality is surprisingly good for an older model. Screen protector saved it from scratches.,0,61,M,Bangalore,3,13,753,0.891634924,5,0,851
+410,Good phone for calls and photos. Would recommend. OS updates sometimes slow it down. (iPhone X),0,20,F,Hyderabad,1,9,220,0.61016969,5,1,741
+71,Camera quality is surprisingly good for an older model. Prefer newer models but this one still works. (iPhone 8),0,54,F,Chennai,9,15,753,0.676413247,5,0,262
+210,"Battery life decent, and the OS updates still run smooth. Minor bugs but acceptable.",0,24,M,Pune,8,14,596,-0.866327402,5,0,974
+64,"Great build, feels premium — still holds up well. Minor bugs but acceptable. (iPhone X)",0,38,F,Delhi,2,7,824,-0.265539287,5,0,256
+385,Frequent reboots and random shutdowns. Very disappointed. Bought it second hand.,0,26,M,Delhi,9,2,304,-1,5,0,400
+94,"Battery life decent, and the OS updates still run smooth. Prefer newer models but this one still works.",0,56,M,Kolkata,7,7,391,-0.976561291,5,0,168
+486,Frequent reboots and random shutdowns. Very disappointed. Ordered replacement battery one time.,1,35,M,Bangalore,9,6,216,0.879373513,3.4,2,885
+186,Happy with the purchase. No complaints about hardware. Bought it second hand.,0,21,F,Bangalore,6,17,1343,0.56105054,5,1,846
+34,Battery drains quickly and it heats up often. Bought it second hand.,1,42,F,Hyderabad,6,2,592,-0.441009139,3.5,1,178
+78,Solid performance for basic apps and light gaming. Shipping and delivery were fine. (iPhone X),0,31,M,Mumbai,4,3,624,-0.238993063,5,1,144
+1,Screen and speakers are good; minor scratches only.,0,26,M,Hyderabad,2,5,328,-0.144006394,5,1,479
+12,"Customer service was unhelpful and rude, won't recommend. Ordered replacement battery one time. (iPhone 8)",1,43,M,Pune,7,5,1353,-0.461584082,3.5,3,92
+416,"Overall satisfied, had no major issues with my old iPhone 8. Bought it second hand.",0,19,M,Chennai,5,1,771,-1,5,1,133
+23,Good phone for calls and photos. Would recommend. Minor bugs but acceptable. (iPhone X),0,37,F,Delhi,6,8,1783,-0.378835017,5,1,880
+73,"Touchscreen unresponsive at times, returns and repairs are costly. I used it for two years.",0,45,F,Hyderabad,2,12,228,0.481189318,5,1,900
+183,"App crashes, freezes a lot — will not buy again. OS updates sometimes slow it down.",1,64,M,Mumbai,5,4,1320,-0.912191602,3.8,1,697
+132,Decent phone but repair costs are high and performance drops. I used it for two years. (iPhone X),0,24,M,Mumbai,4,13,1233,0.416985085,5,1,302
+411,"Phone works fine, fast enough and good display for the price. I used it for two years.",0,61,F,Hyderabad,9,15,441,-0.73717044,5,0,35
+194,Camera quality is surprisingly good for an older model. (iPhone X),0,25,F,Kolkata,6,11,431,-0.742529228,5,1,176
+56,Some good aspects but also some issues with battery and updates. Battery performance is the main issue. (iPhone X),1,64,M,Delhi,2,10,988,0.560673234,3.1,3,213
+149,Happy with the purchase. No complaints about hardware. OS updates sometimes slow it down. (iPhone X),0,52,M,Kolkata,1,3,1507,-0.985399379,5,0,57
+19,Good phone for calls and photos. Would recommend. OS updates sometimes slow it down. (iPhone X),0,31,M,Chennai,5,14,914,0.787057064,5,1,991
+205,Battery drains quickly and it heats up often. Prefer newer models but this one still works.,0,34,F,Mumbai,9,16,958,0.705951367,5,0,579
+79,Screen and speakers are good; minor scratches only. OS updates sometimes slow it down. (iPhone X),0,53,F,Mumbai,6,10,1001,0.15088266,5,0,148
+495,Happy with the purchase. No complaints about hardware. Battery performance is the main issue.,0,57,F,Pune,7,10,975,0.414023613,5,1,322
+263,Some good aspects but also some issues with battery and updates. Shipping and delivery were fine. (iPhone X),0,21,M,Chennai,5,12,925,-0.5355858,5,1,400
+324,Good phone for calls and photos. Would recommend. Ordered replacement battery one time.,0,19,M,Mumbai,6,9,399,-0.063330211,5,1,273
+484,Happy with the purchase. No complaints about hardware. Screen protector saved it from scratches. (iPhone 8),0,23,F,Chennai,5,1,1144,-0.3815736,5,0,609
+80,Frequent reboots and random shutdowns. Very disappointed. Battery performance is the main issue.,0,59,F,Delhi,9,5,278,0.608196828,5,0,755
+40,"App crashes, freezes a lot — will not buy again. Bought it second hand. (iPhone 8)",0,21,M,Bangalore,6,8,1155,-1,5,0,247
+452,Solid performance for basic apps and light gaming. Prefer newer models but this one still works. (iPhone 8),0,46,F,Mumbai,8,11,1055,-0.427928108,5,1,206
+47,Solid performance for basic apps and light gaming. Ordered replacement battery one time. (iPhone X),0,35,F,Pune,2,12,1396,0.926898675,5,0,328
+239,Screen cracked and Apple support was slow to help. Prefer newer models but this one still works.,0,43,M,Delhi,9,1,666,1,5,0,705
+392,Happy with the purchase. No complaints about hardware. I used it for two years.,0,61,F,Hyderabad,5,11,780,0.661631842,5,0,87
+353,Happy with the purchase. No complaints about hardware. Ordered replacement battery one time. (iPhone 8),0,51,M,Chennai,7,5,1639,-0.865207471,5,0,298
+342,"Battery life decent, and the OS updates still run smooth. Shipping and delivery were fine. (iPhone X)",0,27,M,Hyderabad,1,15,1139,-0.616713107,5,0,337
+278,"App crashes, freezes a lot — will not buy again. Ordered replacement battery one time. (iPhone X)",0,53,M,Kolkata,5,5,648,0.442197915,5,0,599
+291,"Touchscreen unresponsive at times, returns and repairs are costly. Bought it second hand.",0,31,M,Delhi,2,12,286,0.242715543,5,0,317
+318,Love my iPhone X. Battery still ok and camera works great. Bought it second hand.,0,48,M,Hyderabad,6,5,300,-0.902725972,5,1,134
+305,Camera quality is surprisingly good for an older model. I used it for two years. (iPhone 8),0,32,M,Mumbai,1,17,1231,0.190936888,5,1,257
+269,Good phone for calls and photos. Would recommend. Prefer newer models but this one still works.,0,25,M,Chennai,3,17,1044,0.610256691,5,1,276
+70,Not worth the price; speaker stopped working after few months. Battery performance is the main issue.,1,31,F,Bangalore,5,12,1423,-1,3.1,1,729
+456,Love my iPhone X. Battery still ok and camera works great. Shipping and delivery were fine. (iPhone X),0,40,M,Delhi,4,15,1728,-0.683033954,5,0,523
+466,Love my iPhone X. Battery still ok and camera works great. OS updates sometimes slow it down. (iPhone X),0,57,M,Mumbai,3,15,286,-0.831710935,5,1,112
+155,Mixed feelings: good camera yet poor battery life. Shipping and delivery were fine.,1,38,F,Pune,5,6,242,-0.850630901,3.2,4,215
+83,Decent phone but repair costs are high and performance drops. I used it for two years.,0,33,F,Kolkata,8,12,1608,-0.23239271,5,1,281
+478,"Phone works fine, fast enough and good display for the price. Shipping and delivery were fine. (iPhone 8)",0,62,F,Chennai,4,18,1844,-0.411981813,5,0,384
+173,Solid performance for basic apps and light gaming. Minor bugs but acceptable.,0,35,M,Delhi,1,14,1658,0.677510515,5,0,779
+322,"Great build, feels premium — still holds up well. Minor bugs but acceptable.",0,64,F,Delhi,7,2,607,0.222380505,5,1,901
+91,Good phone for calls and photos. Would recommend.,0,41,M,Bangalore,8,9,1706,-0.402747487,5,1,725
+181,"Battery life decent, and the OS updates still run smooth. OS updates sometimes slow it down. (iPhone X)",0,43,M,Bangalore,3,5,863,-0.616987287,5,1,825
+415,Screen cracked and Apple support was slow to help. Ordered replacement battery one time.,0,42,M,Pune,6,1,1240,0.019642169,5,1,926
+313,"Touchscreen unresponsive at times, returns and repairs are costly.",0,62,M,Kolkata,2,3,1868,-0.732893651,5,1,967
+279,Screen cracked and Apple support was slow to help. Bought it second hand.,0,58,F,Pune,7,6,347,0.048052426,5,0,239
+382,Screen and speakers are good; minor scratches only. Battery performance is the main issue. (iPhone X),0,46,F,Mumbai,8,5,476,-0.859744448,5,0,845
+473,"Overall satisfied, had no major issues with my old iPhone 8. Shipping and delivery were fine. (iPhone 8)",0,32,M,Mumbai,6,5,431,-0.566163641,5,0,837
+363,Solid performance for basic apps and light gaming. Shipping and delivery were fine. (iPhone 8),0,62,M,Pune,6,1,565,-0.087187163,5,1,638
+325,Camera malfunctioned and photos come out blurred. Shipping and delivery were fine.,1,18,M,Kolkata,5,17,1451,-0.751531096,3.7,2,476
+432,Camera quality is surprisingly good for an older model. Shipping and delivery were fine.,0,42,F,Pune,8,19,1874,-0.379510343,5,1,489
+348,Happy with the purchase. No complaints about hardware. Bought it second hand. (iPhone X),0,24,M,Kolkata,1,14,635,0.292313989,5,1,997
+87,Screen and speakers are good; minor scratches only. Bought it second hand. (iPhone X),0,26,M,Kolkata,4,12,598,-0.425240437,5,1,501
+76,"Phone works fine, fast enough and good display for the price. I used it for two years. (iPhone 8)",0,41,F,Hyderabad,4,10,1434,0.826442035,5,1,749
+439,Not worth the price; speaker stopped working after few months. Ordered replacement battery one time. (iPhone X),0,18,F,Chennai,3,18,1614,0.234207791,5,0,399
+16,Solid performance for basic apps and light gaming. Ordered replacement battery one time. (iPhone X),0,61,M,Kolkata,3,11,698,0.535821786,5,0,929
+250,"Customer service was unhelpful and rude, won't recommend. Ordered replacement battery one time.",1,25,F,Bangalore,4,2,739,1,3.2,2,963
+434,"Phone became slow after updates, frustrating experience. Battery performance is the main issue.",0,41,F,Kolkata,1,18,762,0.013126626,5,0,521
+20,Screen cracked and Apple support was slow to help. (iPhone 8),0,28,M,Kolkata,2,7,1714,-0.661289057,5,0,952
+323,"Battery life decent, and the OS updates still run smooth. Minor bugs but acceptable. (iPhone 8)",0,34,F,Kolkata,9,15,641,0.685599181,5,1,166
+333,Solid performance for basic apps and light gaming. OS updates sometimes slow it down. (iPhone X),0,25,M,Hyderabad,2,11,1484,0.456899286,5,1,396
+57,"Phone became slow after updates, frustrating experience. Battery performance is the main issue. (iPhone 8)",0,52,F,Hyderabad,5,18,972,-0.200064905,5,1,941
+302,Screen and speakers are good; minor scratches only. Prefer newer models but this one still works.,0,52,M,Mumbai,9,12,549,0.60472804,5,1,213
+230,Good phone for calls and photos. Would recommend. (iPhone 8),0,50,M,Hyderabad,9,6,1575,-1,5,1,617
+332,"Overall satisfied, had no major issues with my old iPhone 8. Minor bugs but acceptable. (iPhone 8)",0,22,M,Bangalore,8,13,719,0.940867751,5,1,316
+133,Camera malfunctioned and photos come out blurred. Battery performance is the main issue. (iPhone 8),0,59,F,Bangalore,1,16,1543,0.598031703,5,0,501
+138,Love my iPhone X. Battery still ok and camera works great. Prefer newer models but this one still works. (iPhone 8),0,56,M,Hyderabad,1,18,337,0.432723452,5,1,404
+424,Screen and speakers are good; minor scratches only. Prefer newer models but this one still works. (iPhone 8),0,58,F,Pune,9,10,1773,-0.378253025,5,1,683
+336,Screen and speakers are good; minor scratches only.,0,45,M,Chennai,8,8,1846,-0.000793853,5,1,778
+26,Camera malfunctioned and photos come out blurred. I used it for two years.,1,24,M,Hyderabad,9,18,1191,0.52981858,3.3,4,566
+465,Love my iPhone X. Battery still ok and camera works great. I used it for two years.,1,26,F,Kolkata,7,1,567,-0.878309912,3.9,2,540
+282,"Overall satisfied, had no major issues with my old iPhone 8. I used it for two years.",0,25,M,Delhi,3,8,1443,-0.557697174,5,0,831
+248,Battery drains quickly and it heats up often. Shipping and delivery were fine. (iPhone 8),1,29,M,Chennai,3,6,1560,-0.250943576,3.5,2,608
+238,Happy with the purchase. No complaints about hardware. (iPhone X),0,51,F,Chennai,2,5,1446,-0.066801,5,0,279
+118,Good phone for calls and photos. Would recommend. Prefer newer models but this one still works. (iPhone 8),0,50,M,Bangalore,5,15,1871,-0.297216281,5,0,949
+43,"Phone works fine, fast enough and good display for the price. Minor bugs but acceptable.",0,40,M,Chennai,3,15,1991,-0.13397911,5,1,539
+221,"Phone became slow after updates, frustrating experience. OS updates sometimes slow it down. (iPhone 8)",0,41,M,Hyderabad,6,2,559,-0.594974449,5,1,659
+177,"Phone works fine, fast enough and good display for the price. Screen protector saved it from scratches. (iPhone 8)",0,54,M,Kolkata,2,1,1120,0.221759627,5,1,102
+321,Not worth the price; speaker stopped working after few months. OS updates sometimes slow it down.,0,52,F,Kolkata,3,11,528,0.957777167,5,1,311
+154,Camera quality is surprisingly good for an older model. I used it for two years. (iPhone X),0,61,F,Mumbai,5,10,1161,0.203853324,5,1,945
+232,Screen and speakers are good; minor scratches only. Shipping and delivery were fine. (iPhone X),0,57,M,Kolkata,1,18,662,0.031732729,5,0,989
+228,Happy with the purchase. No complaints about hardware.,0,39,F,Kolkata,1,18,1145,-0.02840925,5,1,389
+418,Happy with the purchase. No complaints about hardware. Prefer newer models but this one still works. (iPhone 8),0,44,M,Bangalore,9,17,1162,-0.071689116,5,1,39
+204,Frequent reboots and random shutdowns. Very disappointed. I used it for two years.,1,52,F,Kolkata,7,8,1784,-1,3.2,3,240
+127,Some good aspects but also some issues with battery and updates. OS updates sometimes slow it down. (iPhone X),1,18,M,Mumbai,1,15,1605,-0.071483538,3.3,2,864
+330,"App crashes, freezes a lot — will not buy again.",0,52,M,Delhi,8,8,1035,-0.504121397,5,1,181
+32,Camera quality is surprisingly good for an older model. Bought it second hand.,0,54,M,Hyderabad,3,17,1813,0.770683084,5,1,34
+114,Old battery refuses to hold charge; needs replacement. (iPhone 8),1,64,M,Bangalore,8,12,1840,-0.076487187,3.6,4,224
+471,Screen and speakers are good; minor scratches only. Minor bugs but acceptable. (iPhone X),0,31,M,Delhi,5,8,368,-0.114813071,5,0,983
+272,Not worth the price; speaker stopped working after few months. Ordered replacement battery one time. (iPhone 8),1,20,M,Bangalore,1,14,416,0.009110664,3,1,312
+141,"Touchscreen unresponsive at times, returns and repairs are costly. Bought it second hand. (iPhone 8)",1,18,F,Pune,7,4,577,-0.883527206,3.6,1,493
+58,Camera quality is surprisingly good for an older model. Shipping and delivery were fine. (iPhone X),0,22,M,Chennai,5,1,318,0.691074062,5,1,142
+193,"Phone became slow after updates, frustrating experience. Battery performance is the main issue. (iPhone 8)",1,43,F,Pune,6,1,389,-0.146975707,3.2,1,300
+25,Works for basic tasks but not for heavy apps. Screen protector saved it from scratches.,0,31,M,Kolkata,6,19,966,-0.151436114,5,1,192
+18,"Overall satisfied, had no major issues with my old iPhone 8. I used it for two years. (iPhone X)",0,56,F,Delhi,8,16,569,0.611659669,5,1,489
+266,"Overall satisfied, had no major issues with my old iPhone 8. Screen protector saved it from scratches.",0,44,F,Kolkata,9,14,348,-0.753705251,5,1,134
+67,Love my iPhone X. Battery still ok and camera works great. Prefer newer models but this one still works. (iPhone 8),0,26,F,Chennai,2,16,1899,1,5,0,722
+209,Camera quality is surprisingly good for an older model. Prefer newer models but this one still works.,0,32,M,Bangalore,9,5,851,-0.617306337,5,1,585
+480,Screen and speakers are good; minor scratches only. Prefer newer models but this one still works. (iPhone 8),0,32,M,Chennai,9,9,1711,0.459857989,5,1,311
+95,Frequent reboots and random shutdowns. Very disappointed. I used it for two years.,0,43,F,Mumbai,7,2,969,-0.640390942,5,1,716
+254,"Customer service was unhelpful and rude, won't recommend. Battery performance is the main issue. (iPhone 8)",0,59,M,Chennai,1,18,573,-0.741507433,5,0,191
+267,"Phone works fine, fast enough and good display for the price. Screen protector saved it from scratches. (iPhone X)",0,30,F,Mumbai,7,6,980,0.321347889,5,0,380
+24,"Overall satisfied, had no major issues with my old iPhone 8. Shipping and delivery were fine. (iPhone X)",0,49,M,Chennai,5,9,1916,-1,5,1,463
+223,Not worth the price; speaker stopped working after few months.,0,56,F,Hyderabad,6,1,359,-0.64150909,5,0,881
+262,Solid performance for basic apps and light gaming. Minor bugs but acceptable.,1,49,F,Mumbai,7,9,550,0.923621259,3.4,2,169
+427,Happy with the purchase. No complaints about hardware. Ordered replacement battery one time. (iPhone 8),0,21,M,Delhi,5,16,1511,-0.965774799,5,0,500
+6,Camera quality is surprisingly good for an older model.,0,47,F,Kolkata,7,13,1511,0.303309086,5,1,161
+117,"Touchscreen unresponsive at times, returns and repairs are costly. Shipping and delivery were fine.",1,54,M,Kolkata,9,9,1091,0.944625269,3.2,2,116
+46,Works for basic tasks but not for heavy apps. I used it for two years.,0,40,F,Pune,3,13,1449,-0.359431219,5,0,717
+17,It's okay — camera is fine but battery needed replacement. Battery performance is the main issue.,0,56,F,Kolkata,8,9,722,0.318052069,5,0,212
+463,Not worth the price; speaker stopped working after few months. Shipping and delivery were fine.,0,62,M,Bangalore,2,11,721,0.871589614,5,0,397
+358,Screen cracked and Apple support was slow to help. Ordered replacement battery one time. (iPhone 8),0,32,M,Hyderabad,7,4,982,0.934413185,5,1,158
+4,Love my iPhone X. Battery still ok and camera works great. Battery performance is the main issue. (iPhone 8),0,60,M,Chennai,2,2,472,-0.367432807,5,1,275
+219,Good phone for calls and photos. Would recommend. Battery performance is the main issue.,0,46,F,Pune,4,6,1135,-0.707635667,5,0,630
+406,"Phone works fine, fast enough and good display for the price. Prefer newer models but this one still works. (iPhone X)",1,53,M,Bangalore,7,14,1625,1,3.1,4,607
+61,Old battery refuses to hold charge; needs replacement. I used it for two years. (iPhone X),0,30,F,Bangalore,3,4,382,-0.205355464,5,0,699
+111,Good phone for calls and photos. Would recommend. Bought it second hand. (iPhone 8),0,49,F,Mumbai,2,6,1888,-0.141794666,5,0,928
+319,Camera quality is surprisingly good for an older model. Ordered replacement battery one time. (iPhone X),0,24,M,Kolkata,7,19,687,-0.342206971,5,1,407
+429,"Customer service was unhelpful and rude, won't recommend. Bought it second hand.",0,39,M,Delhi,1,6,1045,-1,5,0,178
+30,Solid performance for basic apps and light gaming. Minor bugs but acceptable. (iPhone 8),0,45,F,Delhi,8,2,323,-0.414641509,5,1,881
+438,Works for basic tasks but not for heavy apps. I used it for two years. (iPhone 8),1,19,F,Pune,3,18,1184,-0.383444651,3.5,3,462
+472,"Phone became slow after updates, frustrating experience. OS updates sometimes slow it down.",1,59,M,Hyderabad,2,13,1849,0.074722166,3.5,4,657
+27,"Overall satisfied, had no major issues with my old iPhone 8. Minor bugs but acceptable. (iPhone 8)",0,62,M,Delhi,3,9,989,0.646006632,5,0,755
+8,Not worth the price; speaker stopped working after few months. Ordered replacement battery one time. (iPhone X),1,23,M,Chennai,5,19,613,0.108316507,3.4,2,498
+454,Old battery refuses to hold charge; needs replacement. OS updates sometimes slow it down. (iPhone X),1,45,M,Delhi,8,13,1948,-1,3.9,1,475
+109,Frequent reboots and random shutdowns. Very disappointed. Prefer newer models but this one still works. (iPhone 8),0,45,M,Pune,7,11,1395,0.472314543,5,1,510
+38,Camera quality is surprisingly good for an older model. OS updates sometimes slow it down.,0,61,F,Delhi,7,1,1511,-0.022747086,5,0,913
+158,Frequent reboots and random shutdowns. Very disappointed. Prefer newer models but this one still works.,0,61,F,Chennai,7,7,1658,-0.437347606,5,0,323
+490,"Phone became slow after updates, frustrating experience. Minor bugs but acceptable. (iPhone 8)",1,37,F,Mumbai,8,15,885,0.283427769,3.7,2,794
+119,Some good aspects but also some issues with battery and updates. I used it for two years.,1,47,F,Hyderabad,1,1,312,-0.36544491,3.4,1,172
+115,"Battery life decent, and the OS updates still run smooth. Prefer newer models but this one still works.",0,28,M,Pune,4,12,1087,-0.804695409,5,1,279
+176,Good phone for calls and photos. Would recommend. (iPhone 8),0,45,M,Mumbai,6,7,321,-1,5,1,907
+374,Happy with the purchase. No complaints about hardware. Minor bugs but acceptable. (iPhone 8),0,42,M,Mumbai,9,15,1767,0.176739855,5,1,977
+182,Good phone for calls and photos. Would recommend. Bought it second hand. (iPhone 8),0,56,F,Mumbai,2,19,1445,-0.509637914,5,0,331
+145,"Phone works fine, fast enough and good display for the price. Screen protector saved it from scratches. (iPhone X)",0,50,F,Bangalore,1,1,1854,0.57397269,5,0,54
+370,"Battery life decent, and the OS updates still run smooth. Bought it second hand.",0,18,M,Hyderabad,2,17,238,-0.640102397,5,0,818
+391,Happy with the purchase. No complaints about hardware. Ordered replacement battery one time.,1,44,M,Kolkata,7,17,696,-0.043446903,3.1,1,918
+196,Screen and speakers are good; minor scratches only. Prefer newer models but this one still works. (iPhone X),0,30,F,Hyderabad,3,3,979,-0.083383963,5,0,919
+405,Happy with the purchase. No complaints about hardware. Screen protector saved it from scratches.,0,58,F,Bangalore,2,12,1456,0.818195954,5,0,930
+276,"Phone works fine, fast enough and good display for the price. Bought it second hand. (iPhone X)",0,20,M,Kolkata,7,6,1142,0.297733878,5,1,99
+455,Screen and speakers are good; minor scratches only. I used it for two years.,0,56,M,Hyderabad,2,11,1753,0.537710684,5,1,654
+142,Solid performance for basic apps and light gaming. Screen protector saved it from scratches.,0,23,F,Mumbai,3,3,348,-0.324993362,5,1,904
+366,"Battery life decent, and the OS updates still run smooth. Prefer newer models but this one still works.",0,25,M,Pune,7,8,1620,-0.427942691,5,0,141
+68,Battery drains quickly and it heats up often. OS updates sometimes slow it down. (iPhone 8),1,44,M,Kolkata,4,14,1221,0.035350539,3.9,1,393
+211,It's okay — camera is fine but battery needed replacement. Bought it second hand. (iPhone X),0,26,M,Chennai,1,14,860,0.441969253,5,1,332
+169,Good phone for calls and photos. Would recommend. OS updates sometimes slow it down.,0,54,F,Chennai,5,10,1861,-0.538185145,5,0,500
+494,Happy with the purchase. No complaints about hardware. OS updates sometimes slow it down. (iPhone X),0,50,F,Delhi,9,2,501,-1,5,1,993
+376,Good phone for calls and photos. Would recommend. Minor bugs but acceptable. (iPhone 8),0,59,F,Kolkata,8,14,1583,-0.77784084,5,1,120
+401,Works for basic tasks but not for heavy apps. Minor bugs but acceptable. (iPhone 8),0,61,F,Pune,9,9,437,-1,5,0,559
+273,"Customer service was unhelpful and rude, won't recommend. Shipping and delivery were fine.",1,41,F,Bangalore,9,3,846,-0.777943855,3.6,4,690
+110,Decent phone but repair costs are high and performance drops. Bought it second hand. (iPhone X),0,32,F,Mumbai,7,8,862,0.331215955,5,1,768
+249,"Phone became slow after updates, frustrating experience. Bought it second hand. (iPhone X)",1,49,F,Delhi,4,16,435,0.683474611,3.2,4,755
+146,"Overall satisfied, had no major issues with my old iPhone 8. Bought it second hand. (iPhone 8)",0,49,M,Chennai,5,2,1959,0.013615783,5,0,901
+93,Solid performance for basic apps and light gaming. OS updates sometimes slow it down.,0,41,M,Bangalore,1,6,402,-1,5,1,692
+153,"Great build, feels premium — still holds up well. Minor bugs but acceptable.",0,58,M,Bangalore,1,12,455,0.888800676,5,1,221
+368,Screen and speakers are good; minor scratches only. Ordered replacement battery one time.,1,29,M,Mumbai,3,5,797,0.609115361,3.2,4,992
+468,Battery drains quickly and it heats up often. Screen protector saved it from scratches.,1,56,M,Kolkata,8,2,861,-0.21062368,3.6,1,581
+84,Not worth the price; speaker stopped working after few months. OS updates sometimes slow it down. (iPhone 8),0,19,M,Chennai,2,16,434,-0.113380282,5,1,271
+246,"Touchscreen unresponsive at times, returns and repairs are costly. (iPhone X)",1,20,M,Pune,4,5,1568,0.607035378,3.2,4,167
+166,"Overall satisfied, had no major issues with my old iPhone 8. Battery performance is the main issue. (iPhone X)",1,54,F,Bangalore,2,15,733,-0.538277169,3.1,1,374
+164,Solid performance for basic apps and light gaming. Screen protector saved it from scratches.,0,34,F,Mumbai,5,12,1059,-0.235213575,5,0,209
+200,"Great build, feels premium — still holds up well. Battery performance is the main issue. (iPhone 8)",0,19,M,Pune,9,4,1689,0.804974001,5,0,741
+229,"Customer service was unhelpful and rude, won't recommend. I used it for two years.",1,19,M,Kolkata,1,15,969,-0.952536602,3.7,2,532
+75,"Battery life decent, and the OS updates still run smooth. Battery performance is the main issue. (iPhone 8)",0,45,F,Chennai,5,11,740,-0.334551878,5,0,232
+479,Screen cracked and Apple support was slow to help. Prefer newer models but this one still works.,1,40,M,Kolkata,9,16,412,0.848797447,3.4,1,602
+359,Not worth the price; speaker stopped working after few months. Prefer newer models but this one still works. (iPhone 8),1,54,M,Bangalore,1,6,662,0.72544865,4,3,221
+251,Not worth the price; speaker stopped working after few months. Screen protector saved it from scratches.,0,49,F,Pune,9,14,635,-0.345084973,5,0,34
+120,"Overall satisfied, had no major issues with my old iPhone 8. (iPhone X)",0,50,M,Pune,8,18,482,-0.072586913,5,1,919
+311,Happy with the purchase. No complaints about hardware. Battery performance is the main issue. (iPhone X),0,18,F,Pune,4,12,1785,-0.288528122,5,1,266
+300,"Overall satisfied, had no major issues with my old iPhone 8. Battery performance is the main issue.",0,36,M,Bangalore,5,11,1830,0.92591027,5,1,722
+256,Camera malfunctioned and photos come out blurred. (iPhone 8),0,19,F,Bangalore,5,13,1686,-1,5,1,340
+355,Not worth the price; speaker stopped working after few months. Prefer newer models but this one still works. (iPhone X),0,61,F,Kolkata,6,11,1630,0.920788218,5,1,578
+400,"Great build, feels premium — still holds up well. Minor bugs but acceptable.",0,43,F,Delhi,7,16,287,0.511938347,5,0,85
+226,Mixed feelings: good camera yet poor battery life. I used it for two years. (iPhone 8),0,49,M,Kolkata,8,15,1267,-0.366059729,5,1,472
+354,"Battery life decent, and the OS updates still run smooth. Minor bugs but acceptable.",0,23,F,Chennai,8,15,660,-0.37256814,5,0,266
+235,Solid performance for basic apps and light gaming. Prefer newer models but this one still works. (iPhone 8),0,49,M,Mumbai,2,4,477,-0.32616468,5,1,899
+383,Good phone for calls and photos. Would recommend. Prefer newer models but this one still works.,0,21,M,Pune,9,11,1906,0.389129344,5,1,890
+275,Love my iPhone X. Battery still ok and camera works great. Ordered replacement battery one time.,0,28,M,Delhi,7,19,620,0.262945139,5,1,226
+37,Happy with the purchase. No complaints about hardware. I used it for two years. (iPhone 8),0,34,M,Mumbai,4,15,1924,0.173753406,5,0,614
+197,"Battery life decent, and the OS updates still run smooth. Minor bugs but acceptable. (iPhone X)",0,55,F,Delhi,4,4,1576,0.604481668,5,1,600
+140,"Great build, feels premium — still holds up well. Screen protector saved it from scratches. (iPhone 8)",1,41,F,Hyderabad,8,13,895,-1,4,3,781
+365,Mixed feelings: good camera yet poor battery life. Battery performance is the main issue. (iPhone X),1,22,M,Kolkata,4,19,714,-0.749351717,3.7,1,543
+245,It's okay — camera is fine but battery needed replacement. Screen protector saved it from scratches. (iPhone 8),0,51,M,Bangalore,6,2,902,-0.25945521,5,1,478
+440,"Battery life decent, and the OS updates still run smooth. Screen protector saved it from scratches.",0,23,F,Pune,5,14,1853,1,5,0,389
+287,"Phone works fine, fast enough and good display for the price. I used it for two years. (iPhone X)",0,39,M,Kolkata,3,4,218,0.906358998,5,1,729
+60,Love my iPhone X. Battery still ok and camera works great. OS updates sometimes slow it down.,0,28,F,Mumbai,2,16,222,0.425899657,5,0,848
+112,"Battery life decent, and the OS updates still run smooth. Screen protector saved it from scratches.",0,33,M,Hyderabad,9,14,612,0.786901452,5,1,59
+90,Camera quality is surprisingly good for an older model. Shipping and delivery were fine. (iPhone 8),0,50,M,Hyderabad,9,15,1253,1,5,0,808
+437,Happy with the purchase. No complaints about hardware. OS updates sometimes slow it down. (iPhone 8),0,26,F,Hyderabad,1,3,307,-0.677088401,5,0,137
+7,"Overall satisfied, had no major issues with my old iPhone 8. Screen protector saved it from scratches. (iPhone 8)",0,23,M,Mumbai,3,8,1590,0.477705576,5,1,873
+361,"Great build, feels premium — still holds up well. Shipping and delivery were fine. (iPhone 8)",0,33,F,Mumbai,8,16,1504,0.098924993,5,1,964
+347,"Phone works fine, fast enough and good display for the price. Screen protector saved it from scratches. (iPhone X)",0,46,M,Mumbai,6,10,1351,0.480222095,5,0,631
+339,Solid performance for basic apps and light gaming. Shipping and delivery were fine.,0,20,M,Mumbai,5,4,1452,-0.360389504,5,1,746
+159,Old battery refuses to hold charge; needs replacement. Screen protector saved it from scratches.,0,37,M,Hyderabad,5,18,1334,1,5,1,920
+151,"Customer service was unhelpful and rude, won't recommend.",1,53,F,Hyderabad,6,2,335,0.638436108,3.1,2,997
+178,It's okay — camera is fine but battery needed replacement. Minor bugs but acceptable. (iPhone 8),0,36,M,Delhi,7,17,561,0.857364932,5,0,988
+394,"Phone works fine, fast enough and good display for the price. OS updates sometimes slow it down.",0,43,M,Kolkata,1,13,1409,0.940344156,5,1,989
+185,Good phone for calls and photos. Would recommend. Prefer newer models but this one still works.,0,20,M,Pune,9,4,1879,0.2562785,5,1,474
+450,"Overall satisfied, had no major issues with my old iPhone 8. Prefer newer models but this one still works.",0,36,M,Bangalore,3,11,1807,0.134623495,5,1,922
+11,"Phone works fine, fast enough and good display for the price. Bought it second hand.",0,37,F,Hyderabad,4,7,328,-0.919555405,5,0,467
+381,Some good aspects but also some issues with battery and updates.,0,49,F,Bangalore,1,12,1484,-0.357304345,5,1,761
+104,"Phone works fine, fast enough and good display for the price. Bought it second hand. (iPhone X)",0,24,M,Kolkata,3,10,714,0.591595934,5,0,919
+82,Works for basic tasks but not for heavy apps. Shipping and delivery were fine. (iPhone 8),0,58,F,Kolkata,2,7,648,-0.083327332,5,1,635
+39,Camera quality is surprisingly good for an older model. Minor bugs but acceptable. (iPhone X),0,50,M,Bangalore,2,13,1327,1,5,0,486
+315,Battery drains quickly and it heats up often. Minor bugs but acceptable.,1,57,M,Hyderabad,1,7,1706,0.109623429,3.2,1,644
+168,"Battery life decent, and the OS updates still run smooth. OS updates sometimes slow it down.",0,56,M,Bangalore,8,17,1447,0.104796322,5,1,764
+470,"Overall satisfied, had no major issues with my old iPhone 8. Battery performance is the main issue. (iPhone X)",1,35,F,Delhi,3,10,1073,0.399443642,3.7,2,727
+297,"Great build, feels premium — still holds up well. Minor bugs but acceptable.",0,57,F,Chennai,3,10,1714,0.828541133,5,0,725
+475,"Overall satisfied, had no major issues with my old iPhone 8. I used it for two years. (iPhone X)",0,18,F,Hyderabad,6,4,672,0.984629676,5,0,524
+199,Happy with the purchase. No complaints about hardware. I used it for two years.,1,28,F,Hyderabad,8,4,1233,0.935060815,3,1,703
+298,Not worth the price; speaker stopped working after few months. Battery performance is the main issue.,0,45,F,Pune,9,7,1628,-0.804917215,5,1,276
+417,Happy with the purchase. No complaints about hardware. Shipping and delivery were fine.,0,42,F,Mumbai,9,1,501,0.270280684,5,1,572
+147,"Battery life decent, and the OS updates still run smooth. Ordered replacement battery one time.",0,40,F,Chennai,4,12,430,0.249213776,5,1,593
+393,"Overall satisfied, had no major issues with my old iPhone 8. Bought it second hand.",0,48,F,Kolkata,5,13,1954,-0.730863113,5,0,886
+148,Solid performance for basic apps and light gaming. Screen protector saved it from scratches. (iPhone 8),0,47,F,Hyderabad,2,10,1122,-0.460523779,5,1,617
+448,"Battery life decent, and the OS updates still run smooth. (iPhone X)",0,59,M,Bangalore,9,15,1289,-0.258758246,5,1,926
+288,Frequent reboots and random shutdowns. Very disappointed. I used it for two years.,0,52,F,Chennai,8,13,1136,-0.971043764,5,1,468
+124,Not worth the price; speaker stopped working after few months. Battery performance is the main issue.,0,24,F,Pune,3,9,311,-0.714454646,5,1,307
+369,Screen and speakers are good; minor scratches only. Shipping and delivery were fine. (iPhone X),0,33,F,Kolkata,9,9,1236,0.9007417,5,1,581
+97,Love my iPhone X. Battery still ok and camera works great. Ordered replacement battery one time.,0,43,F,Mumbai,3,15,1616,0.557749691,5,1,642
+144,Camera quality is surprisingly good for an older model. Screen protector saved it from scratches. (iPhone 8),0,19,F,Mumbai,9,10,699,-0.250576886,5,1,140
+240,Happy with the purchase. No complaints about hardware. Shipping and delivery were fine. (iPhone X),0,18,F,Pune,2,10,1131,0.605693592,5,0,414
+443,"Phone became slow after updates, frustrating experience. Screen protector saved it from scratches. (iPhone 8)",0,29,F,Pune,9,8,797,-0.188793053,5,1,862
+98,"Battery life decent, and the OS updates still run smooth. I used it for two years. (iPhone 8)",0,22,F,Bangalore,8,16,433,0.625081824,5,1,790
+408,Camera quality is surprisingly good for an older model. Battery performance is the main issue.,0,54,F,Hyderabad,9,17,801,0.424318861,5,1,220
+123,"Overall satisfied, had no major issues with my old iPhone 8.",0,49,F,Mumbai,5,5,513,-1,5,1,519
+184,It's okay — camera is fine but battery needed replacement. I used it for two years. (iPhone X),1,26,F,Kolkata,2,4,765,0.478708714,3.4,3,723
+203,Good phone for calls and photos. Would recommend. Bought it second hand.,0,58,M,Chennai,8,18,1235,0.515358203,5,0,455
+247,"App crashes, freezes a lot — will not buy again. Minor bugs but acceptable. (iPhone X)",0,52,M,Kolkata,6,19,408,-0.568565699,5,0,434
+306,Love my iPhone X. Battery still ok and camera works great. Prefer newer models but this one still works. (iPhone 8),1,36,F,Delhi,8,4,1237,0.101418434,3.2,3,364
+299,Solid performance for basic apps and light gaming. Ordered replacement battery one time. (iPhone X),0,33,F,Delhi,5,7,1856,1,5,0,238
+352,Screen cracked and Apple support was slow to help. Screen protector saved it from scratches. (iPhone 8),1,20,M,Pune,2,10,1641,-1,3.8,4,51
+387,Good phone for calls and photos. Would recommend. Screen protector saved it from scratches.,0,37,F,Bangalore,6,18,1660,-0.007706769,5,1,707
+396,Good phone for calls and photos. Would recommend. Prefer newer models but this one still works. (iPhone X),1,41,M,Delhi,5,19,1600,-0.330361446,3.6,2,640
+285,Love my iPhone X. Battery still ok and camera works great. OS updates sometimes slow it down. (iPhone X),0,50,M,Mumbai,5,4,1243,-0.68172831,5,0,237
+126,Frequent reboots and random shutdowns. Very disappointed. Battery performance is the main issue. (iPhone X),0,41,M,Kolkata,1,10,786,-0.322473253,5,1,37
+303,Love my iPhone X. Battery still ok and camera works great. Ordered replacement battery one time. (iPhone 8),0,28,M,Kolkata,2,1,1978,-0.12694855,5,0,731
+224,Camera quality is surprisingly good for an older model. Screen protector saved it from scratches. (iPhone X),0,25,M,Pune,8,18,1958,-0.917516497,5,1,716
+419,Love my iPhone X. Battery still ok and camera works great. I used it for two years.,0,53,F,Hyderabad,3,5,1214,-1,5,1,814
+220,"App crashes, freezes a lot — will not buy again. Minor bugs but acceptable. (iPhone X)",1,55,M,Hyderabad,3,15,1293,-0.386722184,3.9,3,558
+130,Screen cracked and Apple support was slow to help. Bought it second hand.,0,57,F,Chennai,8,17,1434,0.178734896,5,1,631
+421,Mixed feelings: good camera yet poor battery life. I used it for two years. (iPhone 8),1,37,F,Pune,8,3,1324,-0.361176623,3.7,2,682
+290,Good phone for calls and photos. Would recommend. Screen protector saved it from scratches. (iPhone 8),0,52,M,Chennai,2,12,897,-0.731704015,5,0,686
+445,"Customer service was unhelpful and rude, won't recommend. Bought it second hand. (iPhone X)",1,42,M,Hyderabad,8,2,331,-0.534775999,3.9,1,195
+377,Frequent reboots and random shutdowns. Very disappointed. Ordered replacement battery one time.,1,52,F,Pune,1,1,1846,0.8820921,3.9,1,878
+292,"Phone works fine, fast enough and good display for the price. I used it for two years.",0,42,M,Pune,6,17,1604,-0.549480365,5,0,525
+356,It's okay — camera is fine but battery needed replacement. Screen protector saved it from scratches. (iPhone X),0,46,M,Pune,8,16,1355,-0.159653955,5,1,619
+295,Screen and speakers are good; minor scratches only. Minor bugs but acceptable.,0,35,F,Hyderabad,3,5,1243,0.862506589,5,1,458
+397,Screen cracked and Apple support was slow to help. Shipping and delivery were fine.,1,63,F,Chennai,8,15,735,-0.667851932,3.9,2,803
+341,"Phone works fine, fast enough and good display for the price. OS updates sometimes slow it down. (iPhone X)",0,35,M,Chennai,1,3,1213,0.059007245,5,0,192
+113,Solid performance for basic apps and light gaming. Prefer newer models but this one still works. (iPhone X),1,19,F,Pune,9,7,426,-0.218438051,3.3,4,395
+180,Good phone for calls and photos. Would recommend. Prefer newer models but this one still works. (iPhone X),0,52,M,Delhi,9,11,1377,-0.052566746,5,0,555
+308,"Phone works fine, fast enough and good display for the price. (iPhone X)",0,33,M,Bangalore,5,10,1965,-0.081453213,5,0,268
+433,Some good aspects but also some issues with battery and updates. Minor bugs but acceptable.,0,58,M,Hyderabad,4,9,1692,0.142558317,5,0,101
+488,Not worth the price; speaker stopped working after few months. Screen protector saved it from scratches. (iPhone X),0,53,F,Bangalore,6,14,1021,0.165575688,5,0,474
+482,Mixed feelings: good camera yet poor battery life. Screen protector saved it from scratches.,0,50,F,Bangalore,7,13,1070,0.229302757,5,0,684
+423,Screen cracked and Apple support was slow to help. Minor bugs but acceptable. (iPhone 8),0,21,F,Chennai,5,2,604,-0.234286387,5,0,851
+234,"Customer service was unhelpful and rude, won't recommend. I used it for two years. (iPhone 8)",0,50,F,Chennai,9,3,401,0.252810772,5,0,538
+312,Happy with the purchase. No complaints about hardware. Battery performance is the main issue. (iPhone 8),0,31,F,Delhi,3,7,237,-0.644558266,5,1,824
+165,"Phone works fine, fast enough and good display for the price. Ordered replacement battery one time. (iPhone X)",0,38,M,Bangalore,7,18,1141,0.220916841,5,0,298
+137,Solid performance for basic apps and light gaming. Prefer newer models but this one still works.,0,37,M,Bangalore,5,3,1995,0.117792103,5,1,782
+198,"App crashes, freezes a lot — will not buy again. Prefer newer models but this one still works. (iPhone 8)",1,25,M,Pune,7,10,387,-0.769936359,3.2,1,444
+259,"Overall satisfied, had no major issues with my old iPhone 8. Shipping and delivery were fine. (iPhone X)",0,24,M,Chennai,2,7,1280,-0.612171548,5,1,274
+233,Happy with the purchase. No complaints about hardware. Bought it second hand. (iPhone X),0,20,F,Bangalore,4,9,1140,-0.553598927,5,0,704
+116,"App crashes, freezes a lot — will not buy again. Minor bugs but acceptable. (iPhone 8)",1,34,M,Kolkata,2,17,1243,-0.386165768,3.9,4,89
+121,"Customer service was unhelpful and rude, won't recommend. Battery performance is the main issue. (iPhone 8)",1,50,F,Delhi,7,11,472,-0.315255756,3.4,2,35
+350,"Touchscreen unresponsive at times, returns and repairs are costly. Shipping and delivery were fine.",0,29,M,Kolkata,2,7,1342,0.478873006,5,0,738
+225,Screen and speakers are good; minor scratches only. Minor bugs but acceptable.,0,39,F,Kolkata,1,14,782,0.364050456,5,1,599
+403,"Overall satisfied, had no major issues with my old iPhone 8. Prefer newer models but this one still works.",0,39,F,Hyderabad,9,19,715,-1,5,0,846
+398,Mixed feelings: good camera yet poor battery life. Shipping and delivery were fine.,0,63,M,Hyderabad,1,4,1444,-1,5,0,436
+128,"Customer service was unhelpful and rude, won't recommend. OS updates sometimes slow it down. (iPhone X)",1,47,M,Delhi,8,6,725,-0.695703023,3.6,3,246
+286,Some good aspects but also some issues with battery and updates. Bought it second hand. (iPhone X),0,55,M,Kolkata,2,10,1738,0.846856347,5,1,959
+412,Good phone for calls and photos. Would recommend. (iPhone X),1,55,M,Bangalore,8,7,1951,-0.939430132,3.5,4,55
+108,Solid performance for basic apps and light gaming. Battery performance is the main issue.,0,62,F,Chennai,3,13,1964,-0.333375644,5,0,844
+371,Camera quality is surprisingly good for an older model. Ordered replacement battery one time. (iPhone X),0,25,M,Delhi,6,14,535,-0.605491045,5,1,34
+326,Happy with the purchase. No complaints about hardware. Battery performance is the main issue.,0,44,M,Pune,3,4,897,0.419173383,5,0,561
+134,Solid performance for basic apps and light gaming. Shipping and delivery were fine.,0,44,F,Kolkata,7,8,1278,-1,5,0,419
+453,Some good aspects but also some issues with battery and updates. Ordered replacement battery one time. (iPhone 8),0,51,M,Delhi,9,5,699,0.336998722,5,0,739
+45,"Battery life decent, and the OS updates still run smooth. I used it for two years.",0,38,M,Mumbai,2,1,1099,-0.603055636,5,1,600
+461,"Customer service was unhelpful and rude, won't recommend. Ordered replacement battery one time.",0,47,M,Mumbai,5,4,965,0.352768361,5,1,477
+66,Camera quality is surprisingly good for an older model. OS updates sometimes slow it down. (iPhone X),0,50,M,Hyderabad,6,3,735,-0.581329701,5,1,783
+284,"Phone became slow after updates, frustrating experience. Ordered replacement battery one time. (iPhone X)",0,45,M,Chennai,4,9,361,-0.640230303,5,0,175
+86,Love my iPhone X. Battery still ok and camera works great. Ordered replacement battery one time.,0,64,F,Bangalore,4,8,1893,0.341981743,5,0,417
+243,Screen and speakers are good; minor scratches only. I used it for two years. (iPhone 8),1,50,M,Chennai,4,1,793,-0.132947646,3.2,1,814
+187,"Overall satisfied, had no major issues with my old iPhone 8. Bought it second hand. (iPhone 8)",1,22,M,Chennai,2,6,358,1,3.5,4,278
+384,Camera malfunctioned and photos come out blurred. Prefer newer models but this one still works.,1,36,M,Chennai,4,9,1411,0.525606086,3.9,3,555
+160,"Overall satisfied, had no major issues with my old iPhone 8. Prefer newer models but this one still works.",0,21,M,Chennai,1,7,259,-0.209527659,5,1,491
+13,Battery drains quickly and it heats up often. I used it for two years.,1,52,M,Pune,6,4,1114,-0.152615166,3.1,3,42
+36,Good phone for calls and photos. Would recommend. Bought it second hand.,1,34,F,Pune,1,13,1542,-0.172484866,3.1,1,932
+29,Battery drains quickly and it heats up often. Screen protector saved it from scratches. (iPhone X),0,61,M,Hyderabad,6,17,410,0.849879694,5,0,413
+171,Screen cracked and Apple support was slow to help. Battery performance is the main issue. (iPhone X),0,45,F,Delhi,1,2,605,-0.902680008,5,0,585
+143,Screen cracked and Apple support was slow to help. Shipping and delivery were fine.,0,47,F,Mumbai,6,5,863,-0.807373327,5,0,916
+399,Love my iPhone X. Battery still ok and camera works great. Ordered replacement battery one time.,0,46,M,Chennai,8,12,1332,0.789316955,5,0,428
+343,Mixed feelings: good camera yet poor battery life. Prefer newer models but this one still works. (iPhone 8),0,63,M,Hyderabad,2,8,1299,-0.496224003,5,0,48
+222,Good phone for calls and photos. Would recommend. Ordered replacement battery one time. (iPhone X),0,23,M,Delhi,2,6,741,0.52937412,5,1,604
+96,Old battery refuses to hold charge; needs replacement. Shipping and delivery were fine.,0,52,M,Mumbai,4,8,1537,0.018192879,5,0,520
+52,Some good aspects but also some issues with battery and updates. I used it for two years. (iPhone X),0,58,F,Kolkata,3,18,1197,-0.680395712,5,0,780
+241,Camera malfunctioned and photos come out blurred. OS updates sometimes slow it down.,1,54,M,Bangalore,4,3,1340,-0.790302932,3.6,2,448
+485,Some good aspects but also some issues with battery and updates. Shipping and delivery were fine. (iPhone X),0,41,M,Pune,7,12,1126,0.315655147,5,1,366
+379,Screen and speakers are good; minor scratches only. OS updates sometimes slow it down. (iPhone 8),1,46,M,Kolkata,1,3,1067,0.613867992,3.6,2,448
+179,"Phone became slow after updates, frustrating experience. I used it for two years. (iPhone 8)",1,63,M,Mumbai,6,6,1927,0.225434859,3.1,1,944
+42,"Phone became slow after updates, frustrating experience. OS updates sometimes slow it down.",0,48,M,Kolkata,3,2,218,0.074604237,5,0,945
+499,Frequent reboots and random shutdowns. Very disappointed. Bought it second hand.,1,52,M,Bangalore,7,12,631,-0.842871935,3.8,3,641
+422,Not worth the price; speaker stopped working after few months. Prefer newer models but this one still works. (iPhone 8),1,50,F,Hyderabad,2,2,1908,0.981426448,3.6,2,704
+207,Screen and speakers are good; minor scratches only. Bought it second hand.,0,38,F,Mumbai,2,6,939,0.477388648,5,1,957
+283,Decent phone but repair costs are high and performance drops. Screen protector saved it from scratches.,0,49,M,Kolkata,4,17,1573,-1,5,0,151
+255,Mixed feelings: good camera yet poor battery life. Battery performance is the main issue. (iPhone X),0,40,M,Pune,1,3,382,-1,5,1,461
+413,"Touchscreen unresponsive at times, returns and repairs are costly. I used it for two years. (iPhone 8)",1,50,M,Pune,3,2,312,-0.457351992,3.9,3,73
+5,Camera quality is surprisingly good for an older model. OS updates sometimes slow it down. (iPhone X),0,20,F,Delhi,9,8,1406,-1,5,0,901
+257,"App crashes, freezes a lot — will not buy again. Ordered replacement battery one time. (iPhone 8)",1,35,M,Kolkata,7,12,680,0.685289988,3.6,4,949
+449,Solid performance for basic apps and light gaming. Shipping and delivery were fine.,0,42,F,Chennai,7,4,1369,-0.601960327,5,0,346
+101,"Great build, feels premium — still holds up well. I used it for two years. (iPhone X)",0,59,M,Kolkata,4,5,1030,-0.011297119,5,1,410
+227,"Battery life decent, and the OS updates still run smooth. Minor bugs but acceptable.",1,48,M,Hyderabad,2,13,1851,-0.551592623,3.3,2,174
+430,Solid performance for basic apps and light gaming. Battery performance is the main issue. (iPhone 8),0,20,M,Mumbai,4,15,1336,-1,5,1,356
+214,"Great build, feels premium — still holds up well. Prefer newer models but this one still works. (iPhone 8)",0,57,M,Mumbai,6,16,962,-0.557063314,5,1,392
+172,"Great build, feels premium — still holds up well. Minor bugs but acceptable. (iPhone X)",0,63,F,Hyderabad,3,10,675,-0.311207052,5,1,79
+99,Solid performance for basic apps and light gaming.,0,41,F,Kolkata,1,16,962,-0.272809431,5,0,94
+293,Screen cracked and Apple support was slow to help. Minor bugs but acceptable. (iPhone X),1,49,M,Hyderabad,8,12,1526,-0.191337283,3,4,384
+216,Happy with the purchase. No complaints about hardware. Minor bugs but acceptable.,0,64,M,Bangalore,5,17,1170,-0.915605907,5,0,829
+62,Happy with the purchase. No complaints about hardware. Screen protector saved it from scratches.,0,39,F,Hyderabad,5,16,1219,1,5,1,193
+48,"Phone works fine, fast enough and good display for the price. I used it for two years. (iPhone 8)",0,40,F,Pune,4,12,1341,0.674919658,5,0,170
+33,Solid performance for basic apps and light gaming. Bought it second hand. (iPhone X),0,19,F,Hyderabad,6,8,360,-1,5,0,995
+268,"Customer service was unhelpful and rude, won't recommend. Bought it second hand. (iPhone X)",0,44,F,Mumbai,3,3,600,0.902053291,5,1,855
+328,Solid performance for basic apps and light gaming. Shipping and delivery were fine. (iPhone X),0,59,M,Pune,9,16,397,0.687050119,5,1,157
+201,Camera quality is surprisingly good for an older model. Shipping and delivery were fine. (iPhone X),0,19,F,Mumbai,5,13,1483,1,5,1,427
+447,Decent phone but repair costs are high and performance drops. Ordered replacement battery one time.,1,43,M,Delhi,3,19,859,0.552804004,3.5,4,962
+28,Not worth the price; speaker stopped working after few months. Shipping and delivery were fine.,0,34,F,Chennai,1,8,1975,0.433451966,5,1,909
+425,Good phone for calls and photos. Would recommend.,0,57,F,Mumbai,6,5,1270,0.102320372,5,0,492
+231,Not worth the price; speaker stopped working after few months. Battery performance is the main issue. (iPhone 8),1,50,F,Pune,2,8,598,0.360917412,3.8,3,780
+261,"Great build, feels premium — still holds up well. Bought it second hand. (iPhone 8)",0,26,F,Delhi,3,12,1933,-0.607918688,5,1,865
+289,Screen and speakers are good; minor scratches only. Minor bugs but acceptable.,0,60,F,Mumbai,1,1,1782,0.140116784,5,0,837
+163,Battery drains quickly and it heats up often. Prefer newer models but this one still works.,0,56,M,Bangalore,9,6,277,-0.413731837,5,1,216
+426,"Great build, feels premium — still holds up well. Screen protector saved it from scratches. (iPhone 8)",0,46,M,Hyderabad,8,18,323,-0.344743967,5,1,749
+139,"Touchscreen unresponsive at times, returns and repairs are costly. Bought it second hand.",0,59,F,Chennai,2,8,274,0.40859886,5,0,761
+63,Screen cracked and Apple support was slow to help.,1,43,F,Mumbai,8,7,336,-0.031995387,3.5,2,941
+136,"Battery life decent, and the OS updates still run smooth. I used it for two years.",0,52,M,Delhi,9,1,801,-0.382871758,5,1,219
+129,Camera malfunctioned and photos come out blurred. Minor bugs but acceptable. (iPhone 8),0,42,F,Bangalore,1,16,1623,-0.60696833,5,1,417
+477,"Phone works fine, fast enough and good display for the price. Bought it second hand.",0,41,F,Kolkata,5,12,1036,-0.838327816,5,0,458
+9,"Phone works fine, fast enough and good display for the price. Ordered replacement battery one time.",0,30,M,Delhi,8,6,1728,0.569315903,5,1,887
+327,"Phone works fine, fast enough and good display for the price. Battery performance is the main issue.",0,24,F,Hyderabad,2,2,699,-1,5,0,313
+464,Happy with the purchase. No complaints about hardware. Battery performance is the main issue.,0,53,F,Delhi,4,14,1796,0.516808803,5,1,893
+65,"Overall satisfied, had no major issues with my old iPhone 8. Bought it second hand. (iPhone 8)",0,62,M,Bangalore,7,4,337,0.141294288,5,0,266
+301,Screen cracked and Apple support was slow to help. Battery performance is the main issue.,0,37,M,Delhi,3,1,249,0.571922912,5,1,223
+15,Solid performance for basic apps and light gaming. Minor bugs but acceptable.,0,18,M,Bangalore,5,18,1994,0.838021182,5,0,316
+157,"Overall satisfied, had no major issues with my old iPhone 8. Bought it second hand. (iPhone 8)",0,25,F,Mumbai,8,13,1172,0.725358114,5,0,800
+41,"App crashes, freezes a lot — will not buy again. Battery performance is the main issue. (iPhone X)",0,63,M,Bangalore,3,2,1842,0.946982175,5,0,787
+380,Solid performance for basic apps and light gaming. Bought it second hand. (iPhone X),0,33,M,Bangalore,4,9,1848,-0.235719105,5,0,165
+469,Decent phone but repair costs are high and performance drops. OS updates sometimes slow it down. (iPhone X),0,31,M,Chennai,9,2,453,-0.5604,5,0,821
+404,Frequent reboots and random shutdowns. Very disappointed. Bought it second hand.,1,29,M,Bangalore,7,9,1853,-0.565919939,3.4,1,812
+217,"Overall satisfied, had no major issues with my old iPhone 8. Prefer newer models but this one still works. (iPhone X)",0,40,M,Bangalore,1,1,909,0.742281666,5,1,200
+280,Happy with the purchase. No complaints about hardware. Bought it second hand.,1,32,M,Kolkata,4,11,762,1,3.3,2,188
+435,"Touchscreen unresponsive at times, returns and repairs are costly. (iPhone 8)",0,45,F,Mumbai,4,3,956,0.268130784,5,0,230
+431,Mixed feelings: good camera yet poor battery life. Ordered replacement battery one time. (iPhone X),0,51,F,Hyderabad,9,4,1649,0.954174962,5,0,516
+338,It's okay — camera is fine but battery needed replacement. Bought it second hand.,0,19,M,Chennai,6,18,746,-0.856428385,5,0,586
+237,Not worth the price; speaker stopped working after few months. Ordered replacement battery one time.,0,49,M,Kolkata,9,6,1525,-1,5,0,991
+208,"Phone works fine, fast enough and good display for the price. Shipping and delivery were fine.",0,40,M,Pune,6,3,1121,0.493935649,5,1,805
+213,Works for basic tasks but not for heavy apps. Prefer newer models but this one still works. (iPhone 8),0,39,F,Mumbai,6,11,780,-0.338117946,5,0,612
+296,"Touchscreen unresponsive at times, returns and repairs are costly. Bought it second hand. (iPhone X)",0,42,F,Mumbai,5,15,1572,-1,5,1,533
+458,It's okay — camera is fine but battery needed replacement. I used it for two years.,0,39,F,Pune,5,5,248,-0.411443693,5,1,905
+252,Screen and speakers are good; minor scratches only. Minor bugs but acceptable.,0,39,F,Hyderabad,2,10,1116,0.461773083,5,0,400
+489,"Touchscreen unresponsive at times, returns and repairs are costly. Battery performance is the main issue. (iPhone X)",1,59,F,Bangalore,8,12,1297,1,3.9,3,132
+487,Good phone for calls and photos. Would recommend. Ordered replacement battery one time.,0,23,F,Kolkata,8,15,903,-0.064619904,5,1,154
+304,Battery drains quickly and it heats up often. I used it for two years. (iPhone 8),0,32,F,Delhi,1,17,460,-0.3824648,5,1,342
+351,Good phone for calls and photos. Would recommend. Battery performance is the main issue. (iPhone X),0,60,F,Chennai,8,10,555,1,5,0,827
+270,Battery drains quickly and it heats up often.,0,54,F,Delhi,5,6,1805,-0.382816047,5,0,487
+202,It's okay — camera is fine but battery needed replacement. Minor bugs but acceptable. (iPhone 8),0,50,M,Pune,2,18,1825,0.837879882,5,0,259
+162,Good phone for calls and photos. Would recommend. Prefer newer models but this one still works.,0,25,M,Mumbai,2,13,1483,0.459065761,5,1,687
+44,Screen cracked and Apple support was slow to help. OS updates sometimes slow it down.,1,61,M,Hyderabad,6,3,837,-0.985350172,3.4,4,911
+218,Old battery refuses to hold charge; needs replacement. Minor bugs but acceptable. (iPhone X),0,61,M,Mumbai,9,10,942,0.334219804,5,0,226
+402,"App crashes, freezes a lot — will not buy again. Minor bugs but acceptable.",1,22,F,Chennai,1,14,1518,0.273349,3.9,1,914
+191,Camera quality is surprisingly good for an older model. Minor bugs but acceptable. (iPhone X),0,56,F,Mumbai,6,6,1209,-0.030498575,5,1,762
+310,"Overall satisfied, had no major issues with my old iPhone 8. (iPhone X)",0,21,M,Mumbai,9,3,1130,0.290887951,5,0,452
+260,Screen and speakers are good; minor scratches only. I used it for two years. (iPhone 8),0,23,F,Chennai,8,16,840,-0.383732542,5,0,601
+106,"Battery life decent, and the OS updates still run smooth. OS updates sometimes slow it down. (iPhone 8)",0,62,M,Kolkata,6,7,991,-0.391688678,5,1,639
+54,Screen cracked and Apple support was slow to help. Battery performance is the main issue.,1,49,F,Kolkata,3,14,1536,-0.336682231,3.1,4,200
+390,"Touchscreen unresponsive at times, returns and repairs are costly. (iPhone 8)",1,47,M,Chennai,8,9,811,0.558751307,3.8,1,411
+2,Not worth the price; speaker stopped working after few months. Shipping and delivery were fine.,1,64,F,Hyderabad,9,15,1008,0.845088808,3.3,1,202
+442,"Touchscreen unresponsive at times, returns and repairs are costly. Minor bugs but acceptable. (iPhone X)",1,52,F,Pune,1,3,1405,-0.516047202,3.4,3,692
+483,Love my iPhone X. Battery still ok and camera works great. OS updates sometimes slow it down. (iPhone X),0,57,M,Mumbai,9,2,885,-1,5,0,482
+50,"Phone works fine, fast enough and good display for the price. (iPhone 8)",0,33,F,Hyderabad,6,2,1587,0.277328265,5,0,379
+420,Camera quality is surprisingly good for an older model. Prefer newer models but this one still works. (iPhone 8),0,30,M,Mumbai,6,3,387,0.644371565,5,1,931
+81,Screen cracked and Apple support was slow to help. Battery performance is the main issue.,1,59,M,Pune,4,18,1792,-0.243573233,3.5,1,981
+206,"Touchscreen unresponsive at times, returns and repairs are costly. Screen protector saved it from scratches. (iPhone 8)",0,47,M,Kolkata,1,14,1766,1,5,1,663
+35,Mixed feelings: good camera yet poor battery life. OS updates sometimes slow it down.,1,36,M,Hyderabad,8,18,1819,-0.754816075,3.7,3,523
+264,"Customer service was unhelpful and rude, won't recommend. Bought it second hand.",0,34,F,Bangalore,2,10,1887,-1,5,0,649
+428,Camera malfunctioned and photos come out blurred. Minor bugs but acceptable. (iPhone X),1,36,F,Bangalore,1,2,1184,0.026950661,3.9,1,33
+367,Frequent reboots and random shutdowns. Very disappointed. Prefer newer models but this one still works.,1,45,F,Bangalore,2,1,747,-0.6342305,3.2,4,122
+92,"Great build, feels premium — still holds up well. I used it for two years.",0,43,M,Kolkata,1,4,924,0.786780959,5,1,948
+340,Camera quality is surprisingly good for an older model. Screen protector saved it from scratches. (iPhone 8),0,54,F,Kolkata,1,14,1125,-0.072409279,5,1,35
+474,"Overall satisfied, had no major issues with my old iPhone 8. OS updates sometimes slow it down. (iPhone 8)",1,43,M,Pune,9,1,1631,0.265621903,3.5,2,317
+53,Not worth the price; speaker stopped working after few months. Minor bugs but acceptable.,1,40,F,Mumbai,1,14,1075,-0.569474011,3.6,4,647
+346,"Battery life decent, and the OS updates still run smooth. I used it for two years.",0,26,F,Pune,4,16,817,-0.865158005,5,1,175
+265,Frequent reboots and random shutdowns. Very disappointed. Bought it second hand. (iPhone X),1,29,F,Pune,6,14,613,-0.225360138,3.8,1,812
+242,Camera malfunctioned and photos come out blurred. Ordered replacement battery one time.,1,18,M,Kolkata,7,3,1565,-0.604874752,3.5,4,453
+14,"Customer service was unhelpful and rude, won't recommend. I used it for two years.",0,18,F,Bangalore,2,3,1443,-1,5,0,919
+316,"Battery life decent, and the OS updates still run smooth. Battery performance is the main issue. (iPhone X)",0,64,F,Delhi,6,9,1102,-0.249682253,5,0,637
+89,"Phone became slow after updates, frustrating experience. Shipping and delivery were fine. (iPhone X)",1,51,M,Mumbai,7,6,362,-0.93210972,3.8,4,486
+388,Good phone for calls and photos. Would recommend. Shipping and delivery were fine.,0,49,F,Kolkata,2,13,1443,-0.671763223,5,0,770
+274,Solid performance for basic apps and light gaming. (iPhone X),1,42,M,Bangalore,2,2,469,-1,3.2,3,231
+167,Screen and speakers are good; minor scratches only. Minor bugs but acceptable.,0,57,F,Hyderabad,7,8,831,0.702732554,5,0,241
+329,Some good aspects but also some issues with battery and updates. Screen protector saved it from scratches. (iPhone X),0,62,M,Delhi,1,2,1105,0.410711608,5,0,35
+493,"Touchscreen unresponsive at times, returns and repairs are costly. Ordered replacement battery one time. (iPhone 8)",0,18,M,Delhi,8,4,1623,0.780764467,5,1,653
+135,Battery drains quickly and it heats up often. Screen protector saved it from scratches. (iPhone X),1,33,F,Kolkata,3,15,1405,0.538919735,3.6,1,405
+307,"Customer service was unhelpful and rude, won't recommend. OS updates sometimes slow it down. (iPhone 8)",0,56,M,Chennai,6,4,1841,-0.764113646,5,1,920
+481,"Phone works fine, fast enough and good display for the price. Prefer newer models but this one still works. (iPhone 8)",0,22,M,Mumbai,9,13,1952,0.968091932,5,1,476
+320,"Battery life decent, and the OS updates still run smooth. Prefer newer models but this one still works. (iPhone 8)",0,39,M,Delhi,6,12,404,0.215311398,5,1,864
+244,Not worth the price; speaker stopped working after few months. Screen protector saved it from scratches. (iPhone X),0,46,M,Kolkata,9,13,781,0.708163533,5,0,135
+55,Solid performance for basic apps and light gaming. Screen protector saved it from scratches. (iPhone 8),0,20,M,Kolkata,7,14,1779,-0.221176079,5,0,680
+364,"Great build, feels premium — still holds up well. Shipping and delivery were fine.",0,29,M,Bangalore,9,18,1040,-0.743086481,5,1,840
+51,"Great build, feels premium — still holds up well. Battery performance is the main issue. (iPhone X)",1,43,F,Hyderabad,2,6,1451,1,3.4,2,430
+457,Frequent reboots and random shutdowns. Very disappointed. Battery performance is the main issue. (iPhone X),0,33,M,Chennai,8,11,1919,-0.922026267,5,0,125
+175,Solid performance for basic apps and light gaming. Prefer newer models but this one still works.,0,54,M,Mumbai,8,2,1842,0.471284422,5,1,417
+446,Screen cracked and Apple support was slow to help. Minor bugs but acceptable. (iPhone 8),1,39,F,Pune,2,19,795,-0.144529755,3.7,2,988
+190,Screen and speakers are good; minor scratches only. Minor bugs but acceptable. (iPhone 8),0,46,F,Hyderabad,4,19,449,-0.415889524,5,0,481
+497,Love my iPhone X. Battery still ok and camera works great. Bought it second hand. (iPhone X),0,31,F,Hyderabad,7,5,1074,0.262294801,5,1,878
+188,Good phone for calls and photos. Would recommend. OS updates sometimes slow it down. (iPhone 8),0,45,F,Bangalore,4,19,1664,0.817982167,5,1,838
+170,"Battery life decent, and the OS updates still run smooth. Prefer newer models but this one still works. (iPhone 8)",0,22,F,Delhi,4,2,1756,-0.163868188,5,1,930
+59,"Battery life decent, and the OS updates still run smooth. Battery performance is the main issue. (iPhone 8)",0,64,F,Delhi,6,10,395,-0.65672186,5,0,445
+49,Camera quality is surprisingly good for an older model. I used it for two years. (iPhone 8),0,47,F,Bangalore,6,2,889,0.155443981,5,0,755
+345,Good phone for calls and photos. Would recommend. Screen protector saved it from scratches. (iPhone X),0,63,M,Kolkata,3,11,1742,-0.661874081,5,0,533
+236,Not worth the price; speaker stopped working after few months. Bought it second hand.,0,22,M,Delhi,9,18,1293,-0.278575888,5,1,483
+253,Battery drains quickly and it heats up often. Battery performance is the main issue. (iPhone X),1,29,F,Chennai,2,15,838,0.533266844,3,4,320
+22,Frequent reboots and random shutdowns. Very disappointed. Prefer newer models but this one still works.,0,33,M,Mumbai,6,9,1622,-0.561546278,5,1,563
+314,Solid performance for basic apps and light gaming. OS updates sometimes slow it down. (iPhone 8),1,43,M,Hyderabad,7,19,871,0.871044213,3.2,2,222
+460,Not worth the price; speaker stopped working after few months. Minor bugs but acceptable. (iPhone X),0,43,M,Hyderabad,9,9,1983,-1,5,0,179
+161,Screen and speakers are good; minor scratches only. Battery performance is the main issue.,0,38,F,Chennai,3,3,1426,-0.182575826,5,1,909
+277,Screen cracked and Apple support was slow to help. Shipping and delivery were fine.,1,56,F,Delhi,3,9,1371,-0.750551989,3.2,3,788
+444,Camera quality is surprisingly good for an older model. Ordered replacement battery one time. (iPhone X),0,53,M,Hyderabad,7,14,1695,-0.540153617,5,1,808
+192,Screen cracked and Apple support was slow to help. (iPhone X),1,50,F,Pune,4,19,1878,-1,3.1,3,792
+386,It's okay — camera is fine but battery needed replacement. Screen protector saved it from scratches. (iPhone 8),1,47,M,Mumbai,8,7,1143,-0.018127195,3.1,3,544
+294,Camera quality is surprisingly good for an older model. Shipping and delivery were fine.,0,54,M,Mumbai,7,16,398,-0.080689469,5,1,422
+414,Solid performance for basic apps and light gaming. (iPhone 8),0,40,M,Hyderabad,5,16,1649,-0.852674766,5,1,345
+344,"Overall satisfied, had no major issues with my old iPhone 8. Prefer newer models but this one still works. (iPhone 8)",0,27,M,Bangalore,7,1,1889,0.644398863,5,1,105
+258,Happy with the purchase. No complaints about hardware. Prefer newer models but this one still works.,0,22,F,Hyderabad,3,4,691,-1,5,0,628
+309,Love my iPhone X. Battery still ok and camera works great. I used it for two years. (iPhone 8),1,53,F,Bangalore,2,4,1095,0.398947602,3.1,3,299
+150,"Great build, feels premium — still holds up well. Battery performance is the main issue.",0,51,F,Hyderabad,6,7,341,-0.49100119,5,0,254
+131,Happy with the purchase. No complaints about hardware. I used it for two years. (iPhone 8),0,48,M,Pune,2,8,1536,0.294924812,5,1,559
+152,"Overall satisfied, had no major issues with my old iPhone 8.",0,27,F,Kolkata,3,17,364,-1,5,1,142
+360,Solid performance for basic apps and light gaming. Bought it second hand.,0,36,M,Mumbai,6,5,513,0.001130383,5,1,280
+100,"Great build, feels premium — still holds up well. Minor bugs but acceptable. (iPhone 8)",0,49,F,Hyderabad,5,7,220,-0.318462982,5,0,262
+373,"Phone works fine, fast enough and good display for the price. Battery performance is the main issue.",0,18,M,Pune,8,4,1305,-0.618790124,5,0,870
+88,Camera quality is surprisingly good for an older model. Screen protector saved it from scratches. (iPhone 8),0,22,M,Bangalore,9,6,1804,-0.010755245,5,1,820
+459,Good phone for calls and photos. Would recommend. Minor bugs but acceptable. (iPhone 8),0,62,M,Bangalore,3,7,1354,-0.234024855,5,0,743
+331,Screen and speakers are good; minor scratches only. Ordered replacement battery one time. (iPhone 8),0,21,F,Mumbai,3,18,1822,-1,5,1,112
+215,"Customer service was unhelpful and rude, won't recommend. Bought it second hand. (iPhone 8)",0,33,F,Chennai,3,5,1953,0.58648003,5,0,154
+467,"Phone became slow after updates, frustrating experience. OS updates sometimes slow it down. (iPhone 8)",0,41,F,Hyderabad,6,3,1183,-0.986488152,5,0,204
+122,Decent phone but repair costs are high and performance drops. Screen protector saved it from scratches. (iPhone 8),1,33,F,Delhi,1,7,504,0.680135174,3.4,1,98
+500,Mixed feelings: good camera yet poor battery life. Ordered replacement battery one time. (iPhone 8),1,19,M,Bangalore,7,14,570,0.802391136,3.6,3,76
+21,"Phone became slow after updates, frustrating experience. Screen protector saved it from scratches. (iPhone 8)",0,45,F,Kolkata,1,7,1052,0.151252362,5,0,913
+189,Old battery refuses to hold charge; needs replacement. OS updates sometimes slow it down. (iPhone 8),0,49,F,Kolkata,5,5,583,-0.607937771,5,1,285
+72,"Battery life decent, and the OS updates still run smooth. Prefer newer models but this one still works. (iPhone X)",0,44,M,Bangalore,8,5,644,0.594441181,5,1,756
+107,"Great build, feels premium — still holds up well. Screen protector saved it from scratches. (iPhone 8)",0,37,M,Chennai,4,2,624,-0.573243512,5,0,59
+271,Works for basic tasks but not for heavy apps. Bought it second hand.,1,41,M,Chennai,5,6,360,-0.229531696,3.3,4,310
+349,"Customer service was unhelpful and rude, won't recommend. (iPhone X)",0,29,F,Pune,4,15,1401,-0.330189843,5,0,953
+436,Battery drains quickly and it heats up often. (iPhone X),0,52,M,Kolkata,4,10,828,0.641489607,5,1,266
+103,Some good aspects but also some issues with battery and updates. OS updates sometimes slow it down. (iPhone 8),0,50,M,Pune,8,7,1931,-0.101974352,5,0,277
