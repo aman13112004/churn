@@ -1,0 +1,157 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6" data-aos="fade-right">
+                <h1 class="display-3 fw-bold mb-4">Predict Customer Churn with AI</h1>
+                <p class="lead mb-4">Harness the power of machine learning to identify at-risk customers and take proactive retention measures.</p>
+                <div class="d-flex gap-3">
+                    <a href="#upload" class="btn btn-primary btn-lg">
+                        <i class="bi bi-upload"></i> Batch Analysis
+                    </a>
+                    <a href="/predict_customer" class="btn btn-outline-light btn-lg">
+                        <i class="bi bi-person-check"></i> Single Prediction
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+                <div class="hero-image">
+                    <div class="floating-card card-1">
+                        <i class="bi bi-graph-up-arrow"></i>
+                        <span>92% Accuracy</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="bi bi-people"></i>
+                        <span>10K+ Analyzed</span>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="bi bi-shield-check"></i>
+                        <span>Secure & Private</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="features" class="features-section py-5">
+    <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <h2 class="display-5 fw-bold">Why Choose ChurnGuard?</h2>
+            <p class="lead text-muted">Advanced analytics powered by machine learning</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-lightning-charge"></i>
+                    </div>
+                    <h4>Lightning Fast</h4>
+                    <p>Get instant predictions on thousands of customers in seconds</p>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-graph-up"></i>
+                    </div>
+                    <h4>Deep Analytics</h4>
+                    <p>Comprehensive visualizations and insights into churn patterns</p>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-cpu"></i>
+                    </div>
+                    <h4>AI-Powered</h4>
+                    <p>State-of-the-art machine learning models for accurate predictions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="upload" class="upload-section py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="upload-card" data-aos="zoom-in">
+                    <div class="text-center mb-4">
+                        <div class="upload-icon mb-3">
+                            <i class="bi bi-cloud-arrow-up"></i>
+                        </div>
+                        <h3 class="fw-bold">Batch Churn Analysis</h3>
+                        <p class="text-muted">Upload your customer data CSV for comprehensive churn analysis</p>
+                    </div>
+                    <form method="POST" action="/predict" enctype="multipart/form-data" id="uploadForm">
+                        <div class="upload-zone" id="uploadZone">
+                            <input type="file" name="csv_file" id="csvFile" accept=".csv" required hidden>
+                            <div class="upload-content">
+                                <i class="bi bi-file-earmark-arrow-up display-1 text-muted mb-3"></i>
+                                <h5>Drag & Drop your CSV file here</h5>
+                                <p class="text-muted">or click to browse</p>
+                                <button type="button" class="btn btn-outline-primary mt-2" onclick="document.getElementById('csvFile').click()">
+                                    Select File
+                                </button>
+                            </div>
+                            <div class="file-info" id="fileInfo" style="display: none;">
+                                <i class="bi bi-file-earmark-check text-success display-4"></i>
+                                <p class="mb-2"><strong id="fileName"></strong></p>
+                                <p class="text-muted" id="fileSize"></p>
+                                <button type="button" class="btn btn-sm btn-outline-danger" onclick="clearFile()">
+                                    <i class="bi bi-x"></i> Remove
+                                </button>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg px-5">
+                                <i class="bi bi-play-circle"></i> Analyze Data
+                            </button>
+                        </div>
+                    </form>
+                    <div class="mt-4">
+                        <div class="alert alert-info">
+                            <i class="bi bi-info-circle"></i>
+                            <strong>Required columns:</strong> age, usage_frequency, num_purchases, satisfaction_score, num_support_tickets, tenure_days, churn
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="stats-section py-5">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-3 col-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="stat-card">
+                    <h2 class="counter" data-target="92">0</h2>
+                    <p>Accuracy Rate</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="stat-card">
+                    <h2 class="counter" data-target="10000">0</h2>
+                    <p>Customers Analyzed</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="stat-card">
+                    <h2 class="counter" data-target="35">0</h2>
+                    <p>Avg. Time Saved</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="stat-card">
+                    <h2 class="counter" data-target="99">0</h2>
+                    <p>Client Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

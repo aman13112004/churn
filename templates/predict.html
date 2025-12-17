@@ -1,0 +1,158 @@
+{% extends "base.html" %}
+
+{% block title %}Single Customer Prediction - ChurnGuard{% endblock %}
+
+{% block content %}
+<section class="predict-hero py-5">
+    <div class="container">
+        <div class="text-center mb-4">
+            <h1 class="display-4 fw-bold">Single Customer Prediction</h1>
+            <p class="lead text-muted">Get instant churn prediction for individual customers</p>
+        </div>
+    </div>
+</section>
+
+<section class="predict-section py-4">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                {% if error %}
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <i class="bi bi-exclamation-triangle"></i> <strong>Error:</strong> {{ error }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+                {% endif %}
+
+                {% if prediction %}
+                <div class="prediction-result mb-4" data-aos="zoom-in">
+                    <div class="result-content">
+                        <div class="result-icon {{ prediction.color }}">
+                            <i class="bi {{ prediction.icon }}"></i>
+                        </div>
+                        <h2 class="{{ prediction.color }}">{{ prediction.label }}</h2>
+                        <div class="result-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Churn Probability</span>
+                                <span class="detail-value">{{ prediction.probability }}</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Recommended Action</span>
+                                <span class="detail-value">{{ prediction.action }}</span>
+                            </div>
+                        </div>
+                        <a href="/predict_customer" class="btn btn-outline-primary mt-3">
+                            <i class="bi bi-arrow-clockwise"></i> Predict Another
+                        </a>
+                    </div>
+                </div>
+                {% endif %}
+
+                <div class="prediction-form-card" data-aos="fade-up">
+                    <h4 class="mb-4"><i class="bi bi-clipboard-data"></i> Customer Information</h4>
+                    <form method="POST" action="/get_single_prediction" id="predictionForm">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="age" class="form-label">
+                                    <i class="bi bi-person"></i> Age
+                                </label>
+                                <input type="number" class="form-control" id="age" name="age"
+                                       required min="18" max="100" value="35">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="tenure" class="form-label">
+                                    <i class="bi bi-calendar-check"></i> Tenure (days)
+                                </label>
+                                <input type="number" class="form-control" id="tenure" name="tenure"
+                                       required min="0" value="365">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="usage" class="form-label">
+                                    <i class="bi bi-activity"></i> Usage Frequency
+                                </label>
+                                <select class="form-select" id="usage" name="usage" required>
+                                    <option value="1">Low</option>
+                                    <option value="2">Medium</option>
+                                    <option value="3" selected>High</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="purchases" class="form-label">
+                                    <i class="bi bi-cart"></i> Number of Purchases
+                                </label>
+                                <input type="number" class="form-control" id="purchases" name="purchases"
+                                       required min="0" value="5">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="satisfaction" class="form-label">
+                                    <i class="bi bi-star"></i> Satisfaction Score
+                                </label>
+                                <div class="satisfaction-slider">
+                                    <input type="range" class="form-range" id="satisfaction" name="satisfaction"
+                                           min="1" max="5" step="0.1" value="3.5">
+                                    <div class="d-flex justify-content-between">
+                                        <small>1.0</small>
+                                        <strong id="satisfactionValue">3.5</strong>
+                                        <small>5.0</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="tickets" class="form-label">
+                                    <i class="bi bi-headset"></i> Support Tickets
+                                </label>
+                                <input type="number" class="form-control" id="tickets" name="tickets"
+                                       required min="0" value="2">
+                            </div>
+                            <div class="col-12">
+                                <label for="review" class="form-label">
+                                    <i class="bi bi-chat-left-quote"></i> Customer Review/Feedback (Optional)
+                                </label>
+                                <textarea class="form-control" id="review" name="review" rows="4"
+                                          placeholder="Enter customer feedback or review text..."></textarea>
+                            </div>
+                        </div>
+
+                        <div class="text-center mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg px-5">
+                                <i class="bi bi-cpu"></i> Predict Churn
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="info-cards mt-4">
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <div class="info-card">
+                                <i class="bi bi-lightning-charge text-warning"></i>
+                                <h6>Instant Results</h6>
+                                <p>Get predictions in milliseconds</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info-card">
+                                <i class="bi bi-shield-check text-success"></i>
+                                <h6>Secure</h6>
+                                <p>Your data is never stored</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info-card">
+                                <i class="bi bi-graph-up text-primary"></i>
+                                <h6>Accurate</h6>
+                                <p>92% prediction accuracy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+document.getElementById('satisfaction').addEventListener('input', function(e) {
+    document.getElementById('satisfactionValue').textContent = parseFloat(e.target.value).toFixed(1);
+});
+</script>
+{% endblock %}

@@ -1,0 +1,166 @@
+{% extends "base.html" %}
+
+{% block title %}Analysis Results - ChurnGuard{% endblock %}
+
+{% block extra_css %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+{% endblock %}
+
+{% block content %}
+<section class="result-hero py-5">
+    <div class="container">
+        <div class="text-center mb-4">
+            <h1 class="display-4 fw-bold">Analysis Complete</h1>
+            <p class="lead text-muted">Your churn prediction results are ready</p>
+        </div>
+    </div>
+</section>
+
+<section class="results-section py-4">
+    <div class="container">
+        <div class="row g-4 mb-4">
+            <div class="col-md-3 col-6">
+                <div class="metric-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="metric-icon">
+                        <i class="bi bi-people"></i>
+                    </div>
+                    <div class="metric-content">
+                        <h3 class="counter" data-target="{{ total_records }}">0</h3>
+                        <p>Total Records</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="metric-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="metric-icon text-danger">
+                        <i class="bi bi-exclamation-triangle"></i>
+                    </div>
+                    <div class="metric-content">
+                        <h3><span class="counter" data-target="{{ churn_rate|float }}">0</span>%</h3>
+                        <p>Churn Rate</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="metric-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="metric-icon text-warning">
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <div class="metric-content">
+                        <h3 class="counter-decimal" data-target="{{ avg_satisfaction|float }}">0</h3>
+                        <p>Avg Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="metric-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="metric-icon text-success">
+                        <i class="bi bi-check-circle"></i>
+                    </div>
+                    <div class="metric-content">
+                        <h3 class="counter" data-target="{{ churn_distribution.get(0, 0) }}">0</h3>
+                        <p>Retained</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4 mb-4">
+            <div class="col-lg-6">
+                <div class="chart-card" data-aos="fade-up">
+                    <div class="chart-header">
+                        <h5><i class="bi bi-pie-chart"></i> Churn Distribution</h5>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="churnDistributionChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="chart-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="chart-header">
+                        <h5><i class="bi bi-bar-chart"></i> Age Group Analysis</h5>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="ageChurnChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4 mb-4">
+            <div class="col-lg-6">
+                <div class="chart-card" data-aos="fade-up">
+                    <div class="chart-header">
+                        <h5><i class="bi bi-activity"></i> Usage Frequency Impact</h5>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="usageChurnChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="chart-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="chart-header">
+                        <h5><i class="bi bi-emoji-smile"></i> Satisfaction Score Impact</h5>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="satisfactionChurnChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4 mb-4">
+            <div class="col-lg-12">
+                <div class="chart-card" data-aos="fade-up">
+                    <div class="chart-header">
+                        <h5><i class="bi bi-headset"></i> Support Tickets Analysis</h5>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="ticketsChurnChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="action-card" data-aos="fade-up">
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <h4><i class="bi bi-download"></i> Download Full Report</h4>
+                            <p class="mb-0 text-muted">Get the complete analysis with all predictions in CSV format</p>
+                        </div>
+                        <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                            <form method="POST" action="/download">
+                                <input type="hidden" name="csv_data" value="{{ full_data_csv }}">
+                                <button type="submit" class="btn btn-primary btn-lg">
+                                    <i class="bi bi-file-earmark-arrow-down"></i> Download CSV
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <a href="/" class="btn btn-outline-primary btn-lg">
+                <i class="bi bi-arrow-left"></i> Analyze Another Dataset
+            </a>
+        </div>
+    </div>
+</section>
+
+<script>
+const chartData = {
+    churnDistribution: {{ churn_distribution | tojson }},
+    ageChurn: {{ age_churn_data | tojson }},
+    usageChurn: {{ usage_churn_data | tojson }},
+    satisfactionChurn: {{ satisfaction_churn_data | tojson }},
+    ticketsChurn: {{ tickets_churn_data | tojson }}
+};
+</script>
+<script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+{% endblock %}
